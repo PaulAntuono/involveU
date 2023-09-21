@@ -59,6 +59,8 @@ export class CalendarComponent implements OnInit, AfterViewInit {
       right: 'dayGridMonth,timeGridWeek,timeGridDay,listWeek'
     },
     editable: false,
+    eventColor: '#000000',
+    textColor: 'red',
     selectable: true,
     selectMirror: true,
     navLinks: true,
