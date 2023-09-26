@@ -49,7 +49,11 @@ import { ProgramPlanningChecklistComponent } from './components/more-info/more-i
 import { PreTripAgendaComponent } from './components/more-info/more-info-tabs/pre-trip-agenda/pre-trip-agenda.component';
 import { TripPlanningGuideComponent } from './components/more-info/more-info-tabs/trip-planning-guide/trip-planning-guide.component';
 import {ToastrModule} from "ngx-toastr";
+<<<<<<< Updated upstream
 import {ProgressSpinnerModule} from "primeng/progressspinner";
+=======
+import { ProfilePageComponent } from './components/profile-page/profile-page.component';
+>>>>>>> Stashed changes
 
 
 FullCalendarModule.registerPlugins([
@@ -77,7 +81,8 @@ FullCalendarModule.registerPlugins([
     EventPlanningComponent,
     ProgramPlanningChecklistComponent,
     PreTripAgendaComponent,
-    TripPlanningGuideComponent
+    TripPlanningGuideComponent,
+    ProfilePageComponent
   ],
     imports: [
         BrowserModule,
